@@ -115,6 +115,8 @@ Using ZeroGPU support and LoRA training with any stock market. (You can find sto
 
 [Hugging Face Space](https://huggingface.co/spaces/Q-bert/StockLlama-TrainOnAnyStock)
 
+For LoRA trained models, You can look [StockLlama](https://huggingface.co/StockLlama) organization.
+
 # For more:
 
 You can reach me on,
