@@ -1,0 +1,11 @@
+yfinance
+pandas
+numpy
+torch
+joblib
+tqdm
+datasets
+transformers
+huggingface-hub
+wandb
+peft
