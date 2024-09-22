@@ -35,7 +35,7 @@ from modeling_stockllama import StockLlamaForForecasting
 import pandas as pd
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = StockLlamaForForecasting.from_pretrained("StockLlama/StockLlama").to(device)
+model = StockLlamaForForecasting.from_pretrained("StockLlama/StockLlama-base-v1").to(device)
 day = 365
 def download_stock_data(stock_symbol):
     end_date = datetime.today().date()
